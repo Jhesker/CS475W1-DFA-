@@ -10,3 +10,7 @@ Note- see DFA prompt.
 
 Need to work on efficiency of DFA... Convert nested loop implimentation of the run() method to impliment a much more efficient 
 hashmap Takes O(n^2) runtime to O(n) best case for hashmap O(1)
+
+File does not close file/scanner one of these so exit(0) is needed.. Fix this
+
+Currently whileTrue loop is not correctly implimented.. easy fix k
