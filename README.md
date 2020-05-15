@@ -7,3 +7,6 @@ so it is easy to understand the format that the text files need to test the prog
 This will also give you at least a little bit of an idea as to what is going on before you dive into the code.   
 
 Note- see DFA prompt.
+
+Need to work on efficiency of DFA... Convert nested loop implimentation of the run() method to impliment a much more efficient 
+hashmap Takes O(n^2) runtime to O(n) best case for hashmap O(1)
